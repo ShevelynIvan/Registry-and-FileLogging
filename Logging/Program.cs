@@ -27,7 +27,7 @@ namespace Logging
         /// <summary>
         /// Checks if program has been started on windows platform 
         /// </summary>
-        /// <returns>True if on windows; False if on nother OS</returns>
+        /// <returns>True if on windows; False if on another OS</returns>
         static bool CheckForWindowsPlatform()
         {
             if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
